@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:ital,wght@0,700;0,900;1,400&family=Ubuntu:ital@1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+.wrap{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+#home{
+    font-size: 35px;
+    padding-top: 20px;
+    padding-left: 30px;
+    position: absolute;
+    
+}
+.sidebar{
+   
+    position: absolute;
+    width: 200px;
+    /* height: 100%; */
+    transform:translateX(-100%) ;
+    border-bottom-right-radius:10px ;
+   
+    
+}
+.sidebar .nav{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(174, 222, 224);
+    font-size:25px ;
+    color: black;
+}
+.sidebar ul{
+    
+    background-color: rgb(55, 111, 113);
+    font-size: 20px;
+    
+
+}
+.sidebar ul li{
+    margin-left: 30px;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    list-style: none;
+   display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s;
+    
+}
+.sidebar ul li:hover{
+    background-color: rgb(155, 205, 206);
+    border-radius: 5px;
+}
+.sidebar ul li i{
+    margin-right: 10px;
+}
+.sidebar ul a{
+    color: white;
+    text-decoration: none;
+    
+}
